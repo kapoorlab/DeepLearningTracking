@@ -12,7 +12,8 @@ For creating napari based visualization:
 
 3) pip install scikit-image napari==0.4.3 pyqt5 btrack natsort scipy opencv-python-headless tifffile matplotlib ffmpeg-python imageio_ffmpeg
 
-4) Now input your raw image, instance segmentation image in 2D + t or 3D + t and optionally mask image in this notebook:PythonTools/BTrackMateLocalization.ipynb. This notebok creates a csv file of cell attributes required by the Fiji tracker.
+4) Now input your raw image, instance segmentation image in 2D + t or 3D + t and optionally mask image in this notebook:
+https://github.com/kapoorlab/DeepLearningTracking/blob/main/PythonTools/BTrackMateLocalization.ipynb. This notebok creates a csv file of cell attributes required by the Fiji tracker.
 
 5) After creating a csv file that starts with Fiji{filename}.csv start Fiji, load Raw image and select BTrack - > XYZT tracker plugin
 
@@ -22,4 +23,4 @@ For creating napari based visualization:
 
 8) After doing the tracking/ track editing in TM save the xml file for visualization in Napari.
 
-9) Load the saved XML in this notebook: PythonTools/BTrackMateVisualization.ipynb
+9) Load the saved XML in this notebook: https://github.com/kapoorlab/DeepLearningTracking/blob/main/PythonTools/BTrackMateVisualization.ipynb
